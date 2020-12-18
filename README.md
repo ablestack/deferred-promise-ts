@@ -25,7 +25,14 @@ A DeferredPromise class, that both satisfies the Promise interface, and also all
 ## Abridge Usage Example
 
 ```TypeScript
-// TODO
+// Create Promise
+const deferredPromise = new DeferredPromise<string>();
+
+// Use as you would a promise
+deferredPromise.then((result) => console.log(result));
+
+// Trigger promise resolution
+const deferredPromise.resolve("Resolved!");
 
 ```
 
