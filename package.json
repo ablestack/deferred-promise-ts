@@ -17,6 +17,7 @@
   "author": "jamshally <ahrndee@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "pub": "npm run build && lerna publish --forcePublish",
     "prepublishOnly": "shx rm -f dist/src/package.json dist/src/README.md && shx cp package.json README.md dist/src/",
     "test": "jest",
     "build": "tsc --build --verbose",
@@ -34,6 +35,7 @@
     "@types/jest": "^26.0.15",
     "babel-jest": "^26.6.3",
     "jest": "^26.6.3",
+    "lerna": "^3.22.1",
     "ts-jest": "^26.4.4",
     "ts-node": "~9.0.0",
     "typescript": "^4.0.5"
