@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "composite": true,
     "esModuleInterop": true,
     "importHelpers": true,
     "experimentalDecorators": true,
@@ -20,5 +19,5 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "outDir": "dist"
-  }
+  },
 }

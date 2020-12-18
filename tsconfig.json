@@ -1,5 +1,7 @@
 {
   "extends": "./tsconfig-base",
-  "exclude": ["node_modules"],
-  "references": [{ "path": "./src" }]
+  "compilerOptions": {
+    "composite": false,
+  },
+  "exclude": ["node_modules", "dist"],
 }
