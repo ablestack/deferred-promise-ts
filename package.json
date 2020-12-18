@@ -1,6 +1,6 @@
 {
   "name": "@ablestack/deferred-promise-ts",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "A tiny library, containing a strongly typed deferred-promise class, that leverages ES6 promises and implements the Promise<T> interface",
   "main": "index.js",
   "homepage": "https://github.com/ablestack/deferred-promise-ts",
@@ -25,6 +25,10 @@
     "lpub": "yalc publish",
     "lpush": "yalc push"
   },
+  "publishConfig": {
+    "access": "public",
+    "directory": "dist/src"
+  },
   "dependencies": {
     "tslib": "^2.0.3"
   },
@@ -41,5 +45,5 @@
     "ts-node": "~9.0.0",
     "typescript": "^4.0.5"
   },
-  "gitHead": "c59c4d57928942a531d527e489b6ccdd8a8122da"
+  "gitHead": "1a113e3afc4d49906c5fc21330c39abd22dfcc73"
 }
