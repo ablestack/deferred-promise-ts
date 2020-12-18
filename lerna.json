@@ -1,9 +1,13 @@
 {
-  "version": "0.3.0",
-  "packages": ["."],
+  "version": "0.3.1",
+  "packages": [
+    "."
+  ],
   "command": {
     "publish": {
-      "ignoreChanges": ["*.md"]
+      "ignoreChanges": [
+        "*.md"
+      ]
     }
   }
 }
