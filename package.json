@@ -1,0 +1,22 @@
+{
+  "name": "deferred-promise-ts",
+  "version": "0.3.0",
+  "description": "A tiny library, containing a strongly typed deferred-promise class, that leverages ES6 promises and implements the Promise<T> interface",
+  "main": "index.js",
+  "homepage": "https://github.com/ablestack/deferred-promise-ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ablestack/deferred-promise-ts"
+  },
+  "keywords": [
+    "promise",
+    "deferred-promise",
+    "typescript",
+    "javascript"
+  ],
+  "author": "jamshally <ahrndee@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
