@@ -22,9 +22,11 @@ A DeferredPromise class, that both satisfies the Promise interface, and also all
     yarn add @ablestack/deferred-promise-ts
 ```
 
-## Abridge Usage Example
+## Abridged Usage Example
 
 ```TypeScript
+import { DeferredPromise } from '@ablestack/deferred-promise-ts';
+
 // Create Promise
 const deferredPromise = new DeferredPromise<string>();
 
